@@ -6,6 +6,12 @@ The **Image Captioning Application** is a Python-based application that utilizes
 ## Introduction
 Automatic image captioning is an essential task in computer vision and natural language processing. It is widely used in accessibility applications, content management, and AI-driven storytelling. This project implements **Salesforce's BLIP (Bootstrapped Language-Image Pretraining) model** for image captioning and provides an easy-to-use web interface using **Gradio**.
 
+
+<p align="center">
+  <img src="https://github.com/so123-design/Image-Captioning-Application/blob/4de7793ad772ab28e6e4d30a0b02bd741f278da9/Image%20captioning%202.PNG" alt="My Image" width="800">
+</p>
+
+
 ## Features
 - **Upload an image** to receive an AI-generated caption.
 - **Provide a webpage URL**, and the tool will extract images and generate captions for them.
@@ -21,13 +27,7 @@ Automatic image captioning is an essential task in computer vision and natural l
 - **NumPy**: For handling image arrays.
 - **Requests**: For fetching webpage data and images.
 
-## Project Structure
-```
-image_captioning_tool/
-|-- main.py  # Main script containing the logic
-|-- requirements.txt  # Dependencies
-|-- README.md  # Project documentation
-|-- captions/  # Directory to store generated caption files
+
 ```
 
 ## Installation and Setup
